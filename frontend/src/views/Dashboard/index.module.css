@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  min-width: 300px;
+  margin: 2vh auto;
+}
+.welcome {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: rgb(82, 105, 89);
+}
+.name {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 5vh auto;
+  }
+}

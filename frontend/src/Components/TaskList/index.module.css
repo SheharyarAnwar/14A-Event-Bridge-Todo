@@ -1,0 +1,83 @@
+.root {
+  height: 50vh;
+  /* background-color: white; */
+  width: 70%;
+  min-width: 300px;
+  margin-top: 5%;
+  position: relative;
+}
+.modal {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.modal input {
+  font-family: "Futura", sans-serif;
+  outline: none;
+  border: none;
+}
+.modal button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.modalWrapper {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #52575854;
+}
+.tasks {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 80%;
+}
+.controls {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5%;
+  padding: 5px;
+  /* border-bottom: 3px solid #264653; */
+}
+.controls::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #264653;
+}
+.controls * {
+  padding: 5px;
+  cursor: pointer;
+}
+.add {
+  background-color: #4da773;
+  margin: 5px auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .add {
+    margin: 20px auto;
+  }
+  .root {
+    margin-top: 10%;
+  }
+}

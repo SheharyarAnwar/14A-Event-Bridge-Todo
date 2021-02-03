@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Futura";
+  src: url("./Fonts/Futura.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f4f6;
+  transition: all 0.4s linear;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #264653;
+}
+p {
+  font-family: "Futura", "Josefin Sans", sans-serif;
+  color: #264653;
+  letter-spacing: 0.7px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  scroll-margin-left: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(126, 125, 125, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4da773;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(82, 105, 89);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}

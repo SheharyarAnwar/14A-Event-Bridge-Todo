@@ -1,0 +1,14 @@
+.root {
+  /* background-color: #71d26e; */
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.register {
+  cursor: pointer;
+}
+.logo {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
