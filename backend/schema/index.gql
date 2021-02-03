@@ -1,0 +1,13 @@
+type Todo {
+  userId: String!
+  title: String!
+  isCompleted: Boolean!
+  docId: String!
+}
+type Query {
+  todos: [Todo]!
+}
+type Mutation {
+  addTodo(title: String!): Todo!
+  markAsCompleted(docId: ID!): Todo!
+}
